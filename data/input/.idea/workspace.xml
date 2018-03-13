@@ -14,8 +14,8 @@
       <file leaf-file-name="knnn.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/knnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="630">
+              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
               <folding>
                 <element signature="e#1#19#0" expanded="true" />
               </folding>
@@ -140,8 +140,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/knnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="630">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
           </folding>

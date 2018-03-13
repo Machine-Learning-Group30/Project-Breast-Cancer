@@ -20,7 +20,24 @@ df_train, df_test, diag_train, diag_test = tspl(df, diagnosis, test_size = 0.33)
 # KNN Classifier
 
 from sklearn.neighbors import KNeighborsClassifier as KNN
-knn = KNN(n_neighbors = 5)
+
+# for i in range(1, 20):
+#     knn = KNN(n_neighbors = i)
+#     knn.fit(df_train, diag_train)
+#     score = knn.score(df_test, diag_test)
+#     print("N = " + str(i) + " Score = " + str(score))
+# ideal number of neighbors = 7
+
+knn = KNN(n_neighbors = 7)
 knn.fit(df_train, diag_train)
 
-print(knn.score(df_test, diag_test))
+pred_prob = knn.predict_proba(df_test)
+predictions = knn.predict(df_test)
+
+from sklearn.metrics import confusion_matrix as cfm
+
+print(cfm(predictions, diag_test))
+
+# confusion table:
+# [[109  10]
+#  [  3  66]]
